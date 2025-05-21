@@ -52,7 +52,7 @@ body {
     bottom: 16px;
     left: 50%;
     transform: translate(-50%, 20px);
-    max-width: 360px;
+    max-width: calc(100% - 32px)
   }
   .toast.active {
     opacity: 1;
